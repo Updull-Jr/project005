@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/", metghods = ['GET', 'POST'])
+@app.route("/", methods = ['GET', 'POST'])
 def index():
     return "starting ml project"
 
