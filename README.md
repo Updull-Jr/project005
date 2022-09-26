@@ -109,6 +109,10 @@ docker stop <container_id>
 python setup.py install
 ```
 
+```
+-e . ~ includes installation of all packages(those that hv __init__) in the same directory
+```
+
 
 Install ipykernel
 
