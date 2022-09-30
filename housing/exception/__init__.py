@@ -4,7 +4,7 @@ import sys
 class HousingException(Exception): #passing over the main python exception module.
     
     def __init__(self, error_message:Exception, error_detail:sys):
-        super().__init__(error_message) #passing the error_msg to the Excptn class = Exception(error_msg)
+        super().__init__(error_message) #passing the error_msg to the Excptn class./ == Exception(error_msg)
         self.error_message=HousingException.get_detailed_error_message(error_message=error_message,
                                                                        error_detail=error_detail
                                                                         )
